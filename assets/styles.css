@@ -4,6 +4,10 @@
   font-family: "Lato", sans-serif;
 }
 
+html {
+  font-size: 1rem;
+}
+
 header {
   background-color: aquamarine;
 }
@@ -15,20 +19,40 @@ nav ul {
 
 nav li {
   padding: 5px;
-  margin: 20px;
+  margin: 30px;
+  font-family: "Lato", sans-serif;
+  font-size: 1.5rem;
 }
 
-.profile-photo {
-  display: flex;
-  padding: 25px;
-  width: 33%;
-  height: auto;
-  /* border-radius: 50%; */
+nav a {
+  text-decoration: none;
 }
 
 .intro {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  padding-bottom: 10px;
+}
+
+.profile-photo {
+  display: block;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.welcome {
+  display: block;
+  margin-top: 150px;
+}
+
+h1 {
+  font-size: 4rem;
+  font-family: "Josefin Slab", serif;
+}
+
+h2 {
+  font-size: 2rem;
+  font-family: "Josefin Slab", serif;
 }
 
 .about-me {
