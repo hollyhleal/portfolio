@@ -20,6 +20,10 @@ nav li {
 
 .profile-photo {
   display: flex;
+  padding: 25px;
+  width: 33%;
+  height: auto;
+  /* border-radius: 50%; */
 }
 
 .intro {
