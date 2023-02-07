@@ -3,3 +3,26 @@
   font-family: "Josefin Slab", serif;
   font-family: "Lato", sans-serif;
 }
+
+header {
+  background-color: aquamarine;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav li {
+  padding: 5px;
+  margin: 20px;
+}
+
+.profile-photo {
+  display: flex;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+}
