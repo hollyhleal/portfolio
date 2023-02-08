@@ -95,14 +95,10 @@ p {
 .portfolio {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   padding: 50px;
   background-color: #93bfcf;
 }
-
-/* .portfolio h1 {
-  text-align: center;
-} */
 
 #project-1 {
   height: 200px;
