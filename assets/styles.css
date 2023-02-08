@@ -62,7 +62,7 @@ h1 {
 h2 {
   font-size: 2rem;
   font-family: "Josefin Slab", serif;
-  color: #6096b4;
+  color: #528cac;
 }
 
 p {
@@ -98,13 +98,13 @@ p {
   justify-content: space-between;
   padding-top: 50px;
   padding-bottom: 50px;
-  background-color: pink;
+  background-color: #93bfcf;
 }
 
 #project-1 {
   height: 150px;
   width: 100%;
-  background-color: lightgreen;
+  background-color: #eee9da;
   padding: 20px;
   margin: 20px;
 }
@@ -112,7 +112,7 @@ p {
 #project-2 {
   height: auto;
   width: 30%;
-  background-color: lightgreen;
+  background-color: #eee9da;
   padding: 20px;
   margin: 20px;
 }
@@ -120,7 +120,7 @@ p {
 #project-3 {
   height: auto;
   width: 30%;
-  background-color: lightgreen;
+  background-color: #eee9da;
   padding: 20px;
   margin: 20px;
 }
@@ -128,7 +128,7 @@ p {
 #project-4 {
   height: auto;
   width: 30%;
-  background-color: lightgreen;
+  background-color: #eee9da;
   padding: 20px;
   margin: 20px;
 }
@@ -139,12 +139,13 @@ footer {
   flex-wrap: wrap;
   padding-top: 50px;
   padding-bottom: 50px;
-  background-color: orange;
+  background-color: #eee9da;
   line-height: 1.25;
 }
 
 footer a {
   text-decoration: none;
+  color: #536162;
 }
 
 #contact-link {
