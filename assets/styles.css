@@ -50,6 +50,7 @@ nav a {
 .welcome {
   display: block;
   margin-top: 150px;
+  line-height: 1.25;
 }
 
 h1 {
@@ -68,6 +69,7 @@ p {
   font-size: 1.25rem;
   font-family: "Lato", sans-serif;
   color: #536162;
+  line-height: 1.5;
 }
 
 .about-me {
@@ -86,19 +88,59 @@ p {
 
 .content-section {
   display: block;
+  padding-top: 25px;
   padding-right: 150px;
 }
 
 .portfolio {
   display: flex;
+  flex-wrap: wrap;
   padding-top: 50px;
   padding-bottom: 50px;
-  background-color: green;
+  background-color: pink;
+}
+
+#project-1 {
+  height: 250px;
+  width: 250px;
+  background-color: lightgreen;
+  padding: 20px;
+  margin: 20px;
+}
+
+#project-2 {
+  height: 250px;
+  width: 250px;
+  background-color: lightgreen;
+  padding: 20px;
+  margin: 20px;
+}
+
+#project-3 {
+  height: 250px;
+  width: 250px;
+  background-color: lightgreen;
+  padding: 20px;
+  margin: 20px;
+}
+
+#project-4 {
+  height: 250px;
+  width: 250px;
+  background-color: lightgreen;
+  padding: 20px;
+  margin: 20px;
 }
 
 footer {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   padding-top: 50px;
   padding-bottom: 50px;
   background-color: orange;
+}
+
+a .icon {
+  display: block;
 }
