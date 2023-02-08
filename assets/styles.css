@@ -50,6 +50,7 @@ nav a {
 .welcome {
   display: block;
   margin-top: 150px;
+  margin-left: 50px;
   line-height: 1.25;
 }
 
@@ -74,22 +75,28 @@ p {
 
 .about-me {
   display: flex;
+  flex-wrap: wrap;
   padding-top: 50px;
   padding-bottom: 50px;
   background-color: #eee9da;
 }
 
 .title-section {
-  display: block;
-  padding-left: 150px;
-  padding-right: 100px;
-  text-align: center;
+  /* display: block; */
+  padding-top: 25px;
+  padding-left: 100px;
+  padding-bottom: 15px;
+  /* padding-right: 100px; */
+  /* text-align: center; */
+  flex: 1;
 }
 
 .content-section {
-  display: block;
-  padding-top: 25px;
-  padding-right: 150px;
+  /* display: block;
+  padding-top: 25px; */
+  padding-right: 100px;
+  padding-left: 50px;
+  flex: 2;
 }
 
 .portfolio {
@@ -161,3 +168,4 @@ footer a {
   header {
     flex-direction: column;
   }
+}
