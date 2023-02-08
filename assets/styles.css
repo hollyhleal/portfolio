@@ -95,38 +95,39 @@ p {
 .portfolio {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
   padding-top: 50px;
   padding-bottom: 50px;
   background-color: pink;
 }
 
 #project-1 {
-  height: 250px;
-  width: 250px;
+  height: 150px;
+  width: 100%;
   background-color: lightgreen;
   padding: 20px;
   margin: 20px;
 }
 
 #project-2 {
-  height: 250px;
-  width: 250px;
+  height: auto;
+  width: 30%;
   background-color: lightgreen;
   padding: 20px;
   margin: 20px;
 }
 
 #project-3 {
-  height: 250px;
-  width: 250px;
+  height: auto;
+  width: 30%;
   background-color: lightgreen;
   padding: 20px;
   margin: 20px;
 }
 
 #project-4 {
-  height: 250px;
-  width: 250px;
+  height: auto;
+  width: 30%;
   background-color: lightgreen;
   padding: 20px;
   margin: 20px;
@@ -139,6 +140,7 @@ footer {
   padding-top: 50px;
   padding-bottom: 50px;
   background-color: orange;
+  line-height: 1.25;
 }
 
 footer a {
