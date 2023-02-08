@@ -100,8 +100,12 @@ p {
   background-color: #93bfcf;
 }
 
+#portfolio-title {
+  padding-left: 75px;
+}
+
 #project-1 {
-  height: 200px;
+  height: 225px;
   flex: 100%;
   background-color: #eee9da;
   padding: 20px;
@@ -152,3 +156,8 @@ footer a {
   padding: 20px;
   text-align: center;
 }
+
+@media screen and (max-width: 768px) {
+  header {
+    flex-direction: column;
+  }
