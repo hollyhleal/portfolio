@@ -141,6 +141,11 @@ footer {
   background-color: orange;
 }
 
-contact {
-  display: block;
+footer a {
+  text-decoration: none;
+}
+
+#contact-link {
+  padding: 20px;
+  text-align: center;
 }
