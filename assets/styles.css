@@ -1,3 +1,5 @@
+/* set variables for theme colors */
+
 * {
   box-sizing: border-box;
   font-family: "Josefin Slab", serif;
@@ -96,5 +98,7 @@ p {
 
 footer {
   display: flex;
+  padding-top: 50px;
+  padding-bottom: 50px;
   background-color: orange;
 }
