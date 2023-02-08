@@ -82,27 +82,22 @@ p {
 }
 
 .title-section {
-  /* display: block; */
   padding-top: 25px;
   padding-left: 100px;
   padding-bottom: 15px;
-  /* padding-right: 100px; */
-  /* text-align: center; */
   flex: 1;
 }
 
 .content-section {
-  /* display: block;
-  padding-top: 25px; */
   padding-right: 100px;
   padding-left: 50px;
+  text-align: left;
   flex: 2;
 }
 
 .portfolio {
   display: flex;
   flex-wrap: wrap;
-  /* justify-content: center; */
   padding: 50px;
   background-color: #93bfcf;
 }
