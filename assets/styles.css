@@ -1,4 +1,4 @@
-/* set variables for theme colors */
+/* CSS variables for theme colors */
 :root {
   --dark: #528cac;
   --light: #eee9da;
@@ -6,6 +6,7 @@
   --accent: #93bfcf;
 }
 
+/* universal selector to set box-sizing and site custom fonts */
 * {
   box-sizing: border-box;
   font-family: "Josefin Slab", serif;
@@ -16,10 +17,30 @@ html {
   font-size: 1rem;
 }
 
+h1 {
+  font-size: 4rem;
+  font-family: "Josefin Slab", serif;
+  color: var(--dark);
+}
+
+h2 {
+  font-size: 2rem;
+  font-family: "Josefin Slab", serif;
+  color: var(--dark);
+}
+
+p {
+  font-size: 1.25rem;
+  font-family: "Lato", sans-serif;
+  color: var(--bodyText);
+  line-height: 1.5;
+}
+
 header {
   background-color: var(--light);
 }
 
+/* flex container for nav */
 nav ul {
   display: flex;
   justify-content: flex-end;
@@ -37,6 +58,7 @@ nav a {
   color: var(--dark);
 }
 
+/* flex container for intro section */
 .intro {
   display: flex;
   flex-wrap: wrap;
@@ -62,25 +84,7 @@ nav a {
   line-height: 1.25;
 }
 
-h1 {
-  font-size: 4rem;
-  font-family: "Josefin Slab", serif;
-  color: var(--dark);
-}
-
-h2 {
-  font-size: 2rem;
-  font-family: "Josefin Slab", serif;
-  color: var(--dark);
-}
-
-p {
-  font-size: 1.25rem;
-  font-family: "Lato", sans-serif;
-  color: var(--bodyText);
-  line-height: 1.5;
-}
-
+/* flex container for about me section */
 .about-me {
   display: flex;
   flex-wrap: wrap;
@@ -89,12 +93,14 @@ p {
   background-color: var(--light);
 }
 
+/* class used for About Me and Contact titles */
 .title-section {
   padding-top: 25px;
   padding-left: 100px;
   padding-bottom: 15px;
 }
 
+/* class used for About Me description div */
 .content-section {
   padding-right: 100px;
   padding-left: 100px;
@@ -102,6 +108,7 @@ p {
   flex: 2;
 }
 
+/* flex container for portfolio section */
 .portfolio {
   display: flex;
   flex-wrap: wrap;
@@ -109,6 +116,7 @@ p {
   background-color: var(--accent);
 }
 
+/* removes underline from project links */
 .portfolio a {
   text-decoration: none;
 }
@@ -117,6 +125,7 @@ p {
   padding-left: 75px;
 }
 
+/* sets styling for project 1 div */
 #project-1 {
   height: 225px;
   flex: 100%;
@@ -125,6 +134,7 @@ p {
   margin: 20px;
 }
 
+/* sets styling for image tied to project 1 div */
 #project-1 img {
   max-height: 100%;
   min-width: 100%;
@@ -133,6 +143,7 @@ p {
   padding: 10px;
 }
 
+/* sets styling for project 2 div */
 #project-2 {
   height: 175px;
   flex: 2;
@@ -141,6 +152,7 @@ p {
   margin: 20px;
 }
 
+/* sets styling for image tied to project 1 div */
 #project-2 img {
   max-height: 100%;
   min-width: 100%;
@@ -181,6 +193,7 @@ p {
   padding: 10px;
 }
 
+/* flex container for Contact section */
 .contact-me {
   display: flex;
   flex-wrap: wrap;
@@ -189,6 +202,7 @@ p {
   background-color: var(--light);
 }
 
+/* flex container for divs within Contact content section */
 .footer-contacts {
   display: flex;
   flex-wrap: wrap;
@@ -200,6 +214,7 @@ footer a {
   color: var(--bodyText);
 }
 
+/* styling for individual contact divs */
 #contact-link {
   padding: 40px;
   flex: 2;
