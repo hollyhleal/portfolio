@@ -104,6 +104,10 @@ p {
   background-color: #93bfcf;
 }
 
+.portfolio a {
+  text-decoration: none;
+}
+
 #portfolio-title {
   padding-left: 75px;
 }
