@@ -51,6 +51,8 @@ nav a {
   display: block;
   margin-top: 150px;
   margin-left: 50px;
+  padding-right: 50px;
+  padding-left: 50px;
   line-height: 1.25;
 }
 
@@ -90,7 +92,7 @@ p {
 
 .content-section {
   padding-right: 100px;
-  padding-left: 50px;
+  padding-left: 100px;
   text-align: left;
   flex: 2;
 }
